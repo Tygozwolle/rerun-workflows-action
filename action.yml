@@ -43,8 +43,8 @@ runs:
       #    sleep 90
       #  done
       shell: bash
-  - env: actions/upload-artifact@v4
-    with:
-     path: /rerun-urls.txt
-     compression-level: 0 
+    - using: actions/upload-artifact@v4
+      with:
+       path: /rerun-urls.txt
+       compression-level: 0 
      
