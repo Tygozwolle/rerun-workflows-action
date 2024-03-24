@@ -46,6 +46,6 @@ runs:
       shell: bash
     - uses: actions/upload-artifact@v4
       with:
-       path: /rerun-urls.txt
+       path: rerun-urls.txt
        compression-level: 0 
      
